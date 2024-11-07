@@ -1,0 +1,10 @@
+AskEmily/
+├── app.py                  # Main Flask application
+├── config.py               # Configuration file for API keys
+├── utils/
+│   ├── data_fetcher.py     # Integrates campground, fuel station, bridge data
+│   ├── routing.py          # Custom RV routing logic
+│   ├── technician_finder.py# Finds RV technicians
+│   └── rewards_display.py  # Handles Roamer Rewards
+└── templates/
+    └── index.html          # User interface HTML page
